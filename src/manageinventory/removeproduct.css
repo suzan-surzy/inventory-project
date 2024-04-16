@@ -1,0 +1,155 @@
+.productlist{
+    display: flex;
+    flex-direction: column;
+    height: 45rem;
+    gap: 30px;
+    margin: 40px 200px 0 200px;
+}
+.productlist h1{
+    padding-left: 250px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+}
+.carddiv{
+    margin: 20px;
+    display: flex;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containdiv{
+    width: 80%;
+    cursor: pointer;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.containdiv thead tr th{
+   text-align: start;
+   height: 3rem;
+   padding: 10px;
+   font-size: smaller;
+   color: rgba(0, 0, 0, 0.76);
+   font-family: fantasy;
+   background: goldenrod;
+}
+.containdiv thead tr th:hover{
+    background-color: gold;
+}
+.containdiv tbody tr td{
+    padding: 5px;
+    text-align: center;
+    font-size: smaller; 
+    font-family: fantasy;
+}
+@media(max-width:990px) and (min-width:711px){
+    .container{
+        max-width: 720px;
+    }
+    .productlist{
+        display: flex;
+        flex-wrap: wrap;
+        height: 50rem;
+        margin: 20px;
+    }
+    .carddiv{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:710px) and (min-width:467px) {
+    .container{
+       max-width: 540px;
+    }
+    .productlist{
+        margin: 10px 10px 10px 10px;
+        height: 80rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .productlist h1{
+        padding: 0 20px 0 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .carddiv{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .containdiv{
+        width: 40%;
+        cursor: pointer;
+        height: 15rem;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        margin-bottom: 20px;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .containdiv thead tr th{
+        text-align: left;
+        height: 3rem;
+        padding: 10px;
+        color: rgba(0, 0, 0, 0.76);
+        background: goldenrod;
+     }
+     .containdiv thead tr th:hover{
+         background-color: gold;
+     }
+     .containdiv tbody tr td{
+         text-align: center;
+         font-size: smaller; 
+     }
+}
+@media(min-width:265px) and (max-width:466px){
+     .productlist{
+        margin: 10px 10px 10px 10px;
+        height: 80rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .productlist h1{
+        padding: 0 20px 0 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+    }
+    .carddiv{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .containdiv{
+        width: 40%;
+        cursor: pointer;
+        height: 2rem;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        margin-bottom: 20px;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .containdiv thead tr th{
+        text-align: center;
+        height: 2rem;
+        width: 20%;
+        padding: 10px;
+        color: rgba(0, 0, 0, 0.76);
+        background: goldenrod;
+     }
+     .containdiv thead tr th:hover{
+         background-color: gold;
+     }
+     
+}

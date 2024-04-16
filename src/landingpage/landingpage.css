@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .font-link {
+    font-family: Poppins;
+  } */
+ 
+nav{
+    display: flex;
+    background: whitesmoke;
+    height: 5rem;
+    width: 99%;
+    justify-content: space-between;
+    margin: 0 30px 0 10px;
+}
+.menu-toggle {
+   font-size: 1.5rem;
+   cursor: pointer;
+   display: none;
+}
+  
+.nav-list {
+   list-style: none;
+   display: flex;
+   margin-top: 10px;
+}
+.signin{ 
+    padding-bottom: 20px;
+    height: 5rem;
+}
+.nav-list li {
+   margin: 10px 10px;
+   margin-top: 20px;
+}
+  
+.nav-list a {
+   text-decoration: none;
+   transition: 0.3s;
+   color: black;
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: larger;
+   padding: 10px;
+}
+.fristname{
+    /* background-color: rgba(128, 128, 128, 0.531); */
+    background-color: rgba(0, 0, 0, 0.403);
+    border: 1px solid black;
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    padding: 5px 9px 5px 9px;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.fristname:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    background-color: black;
+    color: white;
+}
+.nav-list a:hover{
+    /* transition: 0.200s; */
+    text-decoration: underline;
+    /* color: brown; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.kidologo{
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding: 10px;
+    margin-top: 13px;
+}
+.signinimage{
+    height: 1rem;
+}
+
+
+.inventory{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/ecommerce.webp);
+    height: 40rem;
+    margin: 0 20px 0 20px;
+}
+.inventory p{
+    color: #fff;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    padding: 20px 600px 30px 40px;
+}
+.paragraph{
+    padding: 40px 600px 10px 20px;
+    margin: 20px 20px 10px 20px;
+    color: rgb(0, 179, 255);
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.goodsrecord{
+    display: flex;
+    gap: 80px;
+    margin: 40px 50px 0 50px;
+    background-color: rgba(9, 3, 0, 0.568);
+    padding: 20px;
+    height: 25rem;
+    border-top-right-radius: 90%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.productimage{
+    height: 26rem;
+    display: flex;
+    margin: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background: rgb(243, 243, 141);
+    box-shadow: 20px grey;
+    padding: 30px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.logoimage{
+    height: 22rem;
+    border-radius: 20px;
+}
+.inventoryimage{
+    height: 18rem;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.inventoryparagraph{
+    padding: 20px;
+    line-height: 27px;
+    margin-top: 140px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+    color: black;
+}
+.logoparagraph{
+    padding: 40px;
+    line-height: 27px;
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+    color: black;
+}
+footer{
+    height: 23rem;
+    margin-top: 40px;
+    background: white;
+}
+.footerlogo{
+    height: 2rem;
+    font-family: fantasy;
+    color: brown;
+    padding: 30px;
+    margin: 0 20px 0 20px;
+}
+.footerdiv{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 12rem;
+}
+.contact{
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.policy{
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.service{
+    margin: 10px;
+}
+.privacy{
+    margin: 10px;
+}
+.cookie{
+    margin: 10px;
+}
+.connectus{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.facebook{
+    height: 3rem;
+    border-radius: 15px;
+}
+.whatsapp{
+    height: 3rem;
+    border-radius: 15px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.copyright h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.signoutlink{
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;                                                                   
+}
+.signoutlink:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.web{
+    display: flex;
+    height: 15rem;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+@media(max-width:710px) and (min-width:467px) {
+    .menu-toggle {
+        display: block;
+        margin-top: 17px;
+        border-radius: 5px;
+      }
+    
+      .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        height: 120rem;
+        left: 0;
+        width: 100%;
+        border-bottom-right-radius: 200px;
+        background-color: bisque;
+        transition: all .5s;
+        text-align: center;
+      }
+   
+      .nav-list.show {
+        display: flex;
+      }
+      .nav-list li {
+        margin: 13px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       color: black;
+     }
+       
+     /* .nav-list a {
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+     } */
+     li a:hover{
+         transition: .5s;
+         color: blue;
+         cursor: pointer;
+     }
+    .signinimage{
+        display: none;
+    }
+    .inventory{
+        display: flex;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/stock\ photos.jfif);
+        height: 30rem;
+    }
+    .inventory p{
+       padding: 10px 90px 10px 10px;
+       margin: 0 50px 10px 20px;
+    }
+    .paragraph{
+        margin: 30px 90px 10px 20px;
+        padding: 10px 20px 10px 10px;
+        color: white;
+        font-size: 30px;
+    }
+    .goodsrecord{
+        height: 27rem;
+        margin: 10px 10px 0 10px;
+        gap: 5px;
+        background: rgb(101, 76, 127);
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logoimage{
+        height: 14rem;
+    }
+    .productimage{
+        height: 25rem;
+        display: flex;
+        margin: 10px;
+        background: rgb(173, 70, 173);
+        padding: 30px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .inventoryimage{
+        height: 13rem;
+    }
+    .inventoryparagraph{
+        padding: 10px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .service{
+        display: none;
+    }
+    .privacy{
+        display: none;
+    }
+    .cookie{
+        display: none;
+    }
+    .logoparagraph{
+        padding: 20px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .copyright{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 10px 10px 10px;
+    }
+    .signoutlink{
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+    }
+}
+
+@media(max-width:990px) and (min-width:711px){
+    /* .container{
+        max-width: 720px;
+    } */
+    .menu-toggle {
+        display: block;
+        margin-top: 18px;
+        border-radius: 3px;
+      }
+    
+      .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        height: 20rem;
+        margin-top: 10px;
+        left: 0;
+        width: 100%;
+        border-radius: 0 0 50px 30px;
+        background-color: rgb(49, 49, 131);
+        transition: all .5s;
+        text-align: center;
+      }
+   
+      .nav-list.show {
+        display: flex;
+      }
+      .nav-list li {
+        margin: 16px;
+     }
+       
+     .nav-list a {
+        text-decoration: none;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+     li a:hover{
+         transition: .5s;
+         background: red;
+         font-size: larger;
+         padding: 10px;
+         color: white;
+         border-radius: 10px;
+     }
+    .signinimage{
+        display: none;
+    }
+    .inventory{
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        padding: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/inventorychallenges.jfif);
+        height: 30rem;
+    }
+    .paragraph{
+        padding: 20px;
+        margin: 0 100px 0 20px;
+        color: brown;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 40px;
+    }
+    .inventory p{
+        color: whitesmoke;
+        padding: 40px;
+        margin: 0 70px 10px 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+    }
+    .goodsrecord{
+        height: 24rem;
+        background: rgb(160, 84, 84);
+        margin: 0 10px 0 10px;
+        padding: 30px 10px 10px 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .productimage{
+        height: 24rem;
+        display: flex;
+        margin: 10px;
+        background: rgb(73, 73, 130);
+        padding: 30px;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .logoimage{
+        height: 15rem;
+    }
+    .inventoryimage{
+        height: 13rem;
+    }
+    .inventoryparagraph{
+        padding: 20px;
+        margin-top: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .logoparagraph{
+        padding: 20px;
+        margin-top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .web{
+        display: flex;
+        justify-content: space-evenly;
+        height: 10rem;
+        /* gap: 10px; */
+    }
+}
+
+@media(max-width:1200px) and (min-width:989px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* small device */
+@media(min-width:265px) and (max-width:466px){
+    .menu-toggle {
+        display: block;
+        margin-top: 17px;
+        border-radius: 5px;
+      }
+    
+      .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        max-height: 100%;
+        left: 0;
+        width: 100%;
+        border-bottom-right-radius: 100px;
+        background-color: bisque;
+        transition: all .5s;
+        text-align: center;
+      }
+   
+      .nav-list.show {
+        display: flex;
+      }
+      .nav-list li {
+        margin: 13px;
+       font-size: larger;
+       color: black;
+     }
+       
+     /* .nav-list a {
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+     } */
+     li a:hover{
+         transition: .5s;
+         color: blue;
+         cursor: pointer;
+     }
+    .signinimage{
+        display: none;
+    }
+    .inventory{
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* padding: 20px; */
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/stock\ photos.jfif);
+        height: 25rem;
+    }
+    .inventory p{
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+    }
+    .paragraph{
+        padding: 5px 5px 5px 5px;
+        margin: 10px 5px 5px 5px;
+        color: white;
+        font-size: 20px;
+    }
+    .goodsrecord{
+        height: 27rem;
+        margin: 10px 10px 0 10px;
+        text-align: center;
+        gap: 5px;
+        background: rebeccapurple;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logoimage{
+        height: 9rem;
+        margin-right: 30px;
+    }
+    .productimage{
+        height: 25rem;
+        display: flex;
+        margin: 10px;
+        text-align: center;
+        background: purple;
+        padding: 30px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .inventoryimage{
+        height: 8rem;
+        margin-left: 30px;
+    }
+    .inventoryparagraph{
+        padding: 10px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    footer{
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        background: white;
+    }
+    .footerlogo{
+        height: 2rem;
+        font-family: fantasy;
+        color: brown;
+        padding: 30px;
+        margin: 0 20px 0 20px;
+    }
+    .footerdiv{
+        /* margin-top: 150px; */
+        margin-left: 30px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 12rem;
+    }
+    .service{
+        display: none;
+    }
+    .privacy{
+        display: none;
+    }
+    .cookie{
+        display: none;
+    }
+    .logoparagraph{
+        padding: 20px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 15rem;
+        margin: 60px 10px 10px 10px;
+        padding: 20px ;
+        /* background-color: aqua; */
+    }
+    .signoutlink{
+        text-decoration: none;
+        padding-bottom: 50px;
+        color: black;
+        /* margin: 20px 0 0 0; */
+        /* height: 10rem; */
+        /* padding: 20px; */
+    }
+    .web{
+        display: flex;
+        height: 5rem;
+        gap: 10px;
+        margin-top: 20px;
+    }
+}
+

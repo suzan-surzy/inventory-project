@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerdiv{
+    height: 30rem;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:  0 20px 0 20px;
+    justify-content: space-evenly;
+}
+.addbtn{
+    font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: thin;
+        padding: 10px;
+        margin: 10px 5px 10px 5px;
+}
+.containertable{
+    background-color: burlywood;
+    height: 5rem;
+    width: 40%;
+    margin-top: 40px;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+.containertable thead{
+    margin-top: 40px;
+    width: 60%;
+    height: 2rem;
+    color: #fff;
+    background: purple;
+}
+.containertable thead tr th{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containertable tbody tr td{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.product{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* font-size: larger; */
+}
+.formcontrol{
+    padding: 10px;
+    margin: 10px;
+}
+
+@media(max-width:990px) and (min-width:711px){
+    .container{
+        max-width: 720px;
+    }
+    .product{
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    .containerdiv{
+        height: 30rem;
+        margin-top: 15px;
+        padding: 0 15px 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:710px) and (min-width:467px) {
+    .container{
+       max-width: 540px;
+    }
+    .product{
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    .containerdiv{
+        display: flex;
+        height: 40rem;
+        padding: 0 70px 0 70px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .containertable{
+        margin-top: 20px;
+        width: 80%;
+    }
+}
+
+@media(min-width:265px) and (max-width:466px){
+    .product{
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    .containerdiv{
+        display: flex;
+        height: 47rem;
+        padding: 0 70px 0 70px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .containertable{
+        margin-top: 20px;
+        width: 80%;
+    }
+    .containertable thead tr th{
+        width: 30%;
+        font-size: smaller;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

@@ -1,0 +1,42 @@
+.pname{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(128, 128, 128, 0.186);
+    padding: 4px 7px 0 7px;
+    border-radius: 2px;
+}
+.sale-receipt{
+    height: 26rem;
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+.mapdiv{
+  padding: 5px;
+  
+}
+.sale-receipt h2{
+    /* padding-left: 250px; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 0 10px 0;
+}
+.totalamount{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.162);
+    color: rgba(165, 42, 42, 0.609);
+    font-size: large;
+    border-radius: 2px;
+    padding: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 20px;
+}
+.receiptdiv{
+   line-height: 25px;
+}
