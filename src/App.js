@@ -1,12 +1,12 @@
 import React from "react";
-import Addproduct from "./inventorymanagement/creatinginventory/addproduct";
-import Landingpage from'./inventorymanagement/landingpage/landingpage'
-import Removeproduct from "./inventorymanagement/manageinventory/removeproduct"
-import Signin from "./inventorymanagement/signin/signin";
-import Signup from "./inventorymanagement/signup/signup";
+import Addproduct from "./creatinginventory/addproduct";
+import Landingpage from'./landingpage/landingpage'
+import Removeproduct from "./manageinventory/removeproduct"
+import Signin from "./signin/signin";
+import Signup from "./signup/signup";
 // import Signout from './inventorymanagement/signup/signout'
 import { BrowserRouter,  Routes, Route} from 'react-router-dom';
-import Purchases from "./inventorymanagement/creatinginventory/purchases";
+import Purchases from ".creatinginventory/purchases";
  
 
 export default function App(){
