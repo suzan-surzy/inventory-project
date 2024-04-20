@@ -13,30 +13,46 @@
     /* visibility: visible !important;
     transform: translateX(0)  */
   }
-  /* Hide Offcanvas on large screens */
-/* @media (min-width: 992px) {
-  .offcanvas {
-    visibility: visible !important;
-    transform: translateX(0) !important;
+  .signoutpara{
+    color: white;
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: thin;
+    display: inline;
   }
-  .toggle-button {
-    display: none; 
+  .signinspan{
+    display: flex;
+    padding: 0 5px 5px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
   }
-} */
+  .signinimags{
+    height: 1.5rem;
+    margin: 8px 0 3px 0;
+  }
+  .link{
+    margin: 1px 0 10px 0;
+    color: white;
+  }
+  .link:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  .signoutpara:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: whitesmoke;
+  }
 
-/* Show Offcanvas on small screens */
-/* @media (max-width: 991.98px) {
-  .offcanvas {
-    visibility: hidden !important;
-    transform: translateX(-100%) !important;
-  }
-} */
-
-  
-  
-  /* .body{
-    height: 20rem;
-  } */
   .body ul{
     display: flex;
     list-style: none;

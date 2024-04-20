@@ -19,7 +19,7 @@ const SaleReceipt = ({ itemsSold, total }) => {
                 <p>Quantity</p><p>{item.quantity}</p>
                 </div>
                 <div className='pname'>
-                <p>Price</p><p>${item.price}</p>
+                <p>Price</p><p>${item.price}.</p>
                 </div>
             </div>
           ))}

@@ -172,7 +172,7 @@ export default function LandingPage() {
               <li><Link to="/" >Home</Link></li>
               <li><Link to="/addproduct" >Add product</Link></li>
               <li><Link to="/removeproduct" >Dashboard</Link></li>
-              <li><Link to="/purchases" >Purchases</Link></li>
+              <li><Link to="/purchases" >Sales</Link></li>
               <li><Link to="/signup" >Signup</Link></li>
               <li className="signin">
                 {signedInUser ? (

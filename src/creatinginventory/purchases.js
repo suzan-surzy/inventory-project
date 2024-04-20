@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './purchase.css'
+import './purchases.css'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import SaleReceipt from './receipt'; 
@@ -8,13 +8,9 @@ import { Link } from 'react-router-dom';
 import { Container,Row,Col } from 'react-bootstrap';
 import USERICON from '../image/user icon.png'
 import HUMBURGER from '../image/humburger.png'
-import FACEBOOK from '../image/facebook1.svg'
-import WHATSAPP from '../image/whatsapp1.svg'
-import TWITTER from '../image/twitter1.svg'
 
 
-
-const Purchases = ({ savedItem }) => {
+export default function Purchases ({ savedItem }) {
   const [itemsSold, setItemsSold] = useState([]);
   const [total, setTotal] = useState(0);
   const [inventory, setInventory] = useState([]);
@@ -79,7 +75,7 @@ const Purchases = ({ savedItem }) => {
               <li><Link to="/" >Home</Link></li>
               <li><Link to="/addproduct" >Add product</Link></li>
               <li><Link to="/removeproduct" >Dashboard</Link></li>
-              <li><Link to="/purchases" >Purchases</Link></li>
+              <li><Link to="/purchases" >Sales</Link></li>
               <li><Link to="/signup" >Signup</Link></li>
               <li className="signin">
                 {signedInUser ? (
@@ -122,7 +118,7 @@ const Purchases = ({ savedItem }) => {
                 <td>{item.productName}</td>
                 <td>{item.productQuantity}</td>
                 <td>${item.productPrice}</td>
-                 <td><button onClick={() => handleSale(item)}>Sell</button></td>
+                 <td><button onClick={() => handleSale(item)} >Buy Product</button></td>
               </tr>
             ))}
          </tbody>
@@ -155,7 +151,7 @@ const Purchases = ({ savedItem }) => {
       
     </div>
     </Col>
-       <Col>
+       {/* <Col>
           <footer>
             <h1 className="footerlogo">Kido inventory</h1>
             <div className="footerdiv">
@@ -183,10 +179,10 @@ const Purchases = ({ savedItem }) => {
                 <h3>© 2024, Kido Inventory Ltd. All Rights Reserved</h3>
             </div>
           </footer>
-        </Col>
+        </Col> */}
     </Row>
     </Container>
   );
 };
-export default Purchases;
+
 

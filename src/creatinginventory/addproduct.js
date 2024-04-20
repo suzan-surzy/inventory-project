@@ -89,6 +89,7 @@ setNewItem({
                   <li><Link to="/" >Home</Link></li>
                   <li><Link to="/addproduct" >add product</Link></li>
                   <li><Link to="/removeproduct" >Dashboard</Link></li>
+                  <li><Link to="/purchases" >Sales</Link></li>
                   <li><Link to="/signup" >Signup</Link></li>
                   <li className="signin">
                 {signedInUser ? (
@@ -128,7 +129,7 @@ setNewItem({
                             <button className="addbtn" type="button" onClick={handleAddProduct}>
                                 Add
                             </button>
-                            <button className="addbtn" type="submit" onClick={saveProductsToLocal}>Save to Local Storage</button>
+                            <button className="addbtn" type="submit" onClick={saveProductsToLocal}>Save Product</button>
                         </Form>
 
                         

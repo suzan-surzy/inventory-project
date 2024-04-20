@@ -1,8 +1,9 @@
 .modaldiv{
-    height: 100vh;
+    height: 43rem;
     background-color: pink;
 
 }
+
 .purchasenavbar{
   display: none;
 }
@@ -40,15 +41,21 @@
 }
 .inventorylist tbody tr td button{
    padding: 7px;
-   font-size: large;
+   font-size: medium;
    background-color: transparent;
    border-top-left-radius: 5px;
    border-bottom-right-radius: 5px;
+   background-color: palevioletred;
+   color: white;
+}
+.inventorylist tbody tr td button:hover{
+  background-color: rgba(0, 0, 0, 0.735);
+  cursor: pointer;
 }
 .salediv{
   display: flex;
   justify-content: space-between;
-  height: 100vh;
+  height: 30rem;
   /* flex-wrap: wrap; */
 }
 .modaltitle{
@@ -80,7 +87,7 @@
     height: 35rem;
     width: 30%; /* Could be more or less, depending on screen size */
   }
-  
+ 
   /* The Close Button */
   .close {
     color: #aaa;
