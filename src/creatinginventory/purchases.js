@@ -22,8 +22,10 @@ export default function Purchases ({ savedItem }) {
   useEffect(() => {
     const inventoryData = JSON.parse(localStorage.getItem('saveditem'));
     setInventory(inventoryData);
+   
   }, []);
 
+  console.log(inventory)
   const handleSale = (item) => {
     const updatedInventory = inventory.map((invItem) => {
       if (invItem.id === item.productid && invItem.productQuantity >= 1) {
@@ -64,6 +66,7 @@ export default function Purchases ({ savedItem }) {
  
   return (
   <Container fluid>
+     {inventory.length > 0 ? (
     <Row>
       <Col>
     <nav className='purchasenavbar'>
@@ -181,6 +184,14 @@ export default function Purchases ({ savedItem }) {
           </footer>
         </Col> */}
     </Row>
+    ) : (
+                    <div className="no-products">
+                        <h2>No products found.</h2>
+                        <Link to="/addproduct">
+                            <button className="add-product-button">Go Add Product</button>
+                        </Link>
+                    </div>
+                )}
     </Container>
   );
 };

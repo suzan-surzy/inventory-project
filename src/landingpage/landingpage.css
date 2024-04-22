@@ -67,6 +67,18 @@ nav{
     background-color: black;
     color: white;
 }
+.landingpagebtn a{
+    text-decoration: none;
+    color: white;
+}
+.landingpagebtn{
+    padding: 5px 0 5px 0;
+    margin: 15px;
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
 .nav-list a:hover{
     /* transition: 0.200s; */
     text-decoration: underline;
@@ -598,7 +610,7 @@ footer{
         color: white;
     }
     footer{
-        height: 35rem;
+        height: 30rem;
         display: flex;
         flex-direction: column;
         margin-top: 40px;

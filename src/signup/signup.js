@@ -419,10 +419,10 @@ export default function Signup() {
                 <p>Blog</p>
               </div>
               <div className="policy">
-                <p>Privacy Policy</p>
-                <p>About</p>
-                <p>Terms of Service</p>
-              </div>
+                  <p className="privacy">blog</p>
+                  <p className="cookie">about</p>
+                  <p className="service">Terms of service</p>
+                </div>
               <div className="connectus">
                 <h3>Connect With Us</h3>
                 <div className="web">

@@ -47,6 +47,11 @@
     font-size: smaller; 
     font-family: fantasy;
 }
+.no-products{
+    background-color: antiquewhite;
+    height: 10rem;
+    
+}
 @media(max-width:990px) and (min-width:711px){
     .container{
         max-width: 720px;
@@ -113,7 +118,7 @@
 @media(min-width:265px) and (max-width:466px){
      .productlist{
         margin: 10px 10px 10px 10px;
-        height: 80rem;
+        height: 74rem;
         display: flex;
         flex-direction: column;
     }

@@ -440,10 +440,10 @@ export default function RemoveProduct() {
                                       <p>Blog</p>
                                   </div>
                                   <div className="policy">
-                                      <p>Blog</p>
-                                      <p>About</p>
-                                      <p>Terms of Service</p>
-                                  </div>
+                                    <p className="privacy">blog</p>
+                                    <p className="cookie">about</p>
+                                    <p className="service">Terms of service</p>
+                                    </div>
                                   <div className="connectus">
                                       <h3>Connect With Us</h3>
                                       <div className="web">
@@ -465,7 +465,7 @@ export default function RemoveProduct() {
                     <div className="no-products">
                         <h2>No products found.</h2>
                         <Link to="/addproduct">
-                            <button className="add-product-button">Add Product</button>
+                            <button className="add-product-button">Go Add Product</button>
                         </Link>
                     </div>
                 )}

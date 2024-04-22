@@ -191,7 +191,9 @@ export default function LandingPage() {
           </nav>
           <div className="inventory">
             <h2 className="paragraph">The world is your marketplace,Manage and fulfill orders on a go.</h2>
-            <p>Find out the volume of items that are shipped in and out from each of your warehouse. Get more insights into each item's sales in simple steps.</p>
+            <p>Find out the volume of items that are shipped in and out from each of your warehouse. 
+              Get more insights into each item's sales in simple steps.</p>
+              <button  className="landingpagebtn"> <Link to='/addproduct'>Get Started</Link></button>
           </div>
           <Col />
         </Row>

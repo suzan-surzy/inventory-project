@@ -30,10 +30,11 @@
     align-items: center;
     width: 40%;
     margin-top: 10px;
-    border: 1px solid black;
+    border: 1px solid rgba(128, 128, 128, 0.674);
     border-radius: 5px;
     height: 40rem;
-    background: rgba(196, 218, 255, 0.866);
+    background: white;
+    box-shadow: 100px gray;
 }
 .signupheader{
     margin-top: 15px;
@@ -66,12 +67,13 @@ label{
     text-decoration: none;
     padding: 10px;
     width: 50%;
-    background: wheat;
+    background: rgb(94, 37, 94);
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
     border-radius: 5px;
     margin-top: 10px;
+    color: white;
 }
 .signuplink{
     text-decoration: none;
@@ -135,16 +137,18 @@ label{
          align-items: center; 
          padding: 40px;
          height: 45rem;
+         box-shadow: 50px  rgba(128, 128, 128, 0.904);
      }
      .formdetail{
          display: flex;
          flex-direction: column;
          padding: 30px;
-         border: 1px solid black;
+         border: 1px solid gray;
          border-radius: 5px;
          height: 43rem;
          width: 100%;
          margin-top: 20px;
-         background: rgba(196, 218, 255, 0.866);
+         background: white;
+         box-shadow: 40px  rgba(128, 128, 128, 0.904);
      }
 }

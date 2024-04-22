@@ -45,7 +45,7 @@
    background-color: transparent;
    border-top-left-radius: 5px;
    border-bottom-right-radius: 5px;
-   background-color: palevioletred;
+   background-color: black;
    color: white;
 }
 .inventorylist tbody tr td button:hover{
@@ -219,11 +219,13 @@
        background-color: transparent;
        border-top-left-radius: 5px;
        border-bottom-right-radius: 5px;
+       background-color: black;
+       color: white;
     }
     .sales{
       height: 30rem;
       width: 99%;
-      padding: 40px 20px 0 40px;
+      padding: 40px 15px 0 15px;
   
   }
   .offcanvasdiv{
