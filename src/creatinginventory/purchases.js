@@ -154,35 +154,7 @@ export default function Purchases ({ savedItem }) {
       
     </div>
     </Col>
-       {/* <Col>
-          <footer>
-            <h1 className="footerlogo">Kido inventory</h1>
-            <div className="footerdiv">
-              <div className="contact">
-                  <p style={{marginBottom:'10px'}}>Email - kidoinventory@gmail.com</p>
-                  <p style={{marginBottom:'10px'}}>Contact - 09025356723</p>
-                  <p>blogs</p>
-              </div>
-              <div className="policy">
-                <p className="privacy">blog</p>
-                <p className="cookie">about</p>
-                <p className="service">Terms of service</p>
-              </div>
-              <div className="connectus">
-              <h3>Connect With Us</h3>
-                <div className="web">
-                <img className="facebook" src={FACEBOOK} alt=""/>
-                <img  className="whatsapp" src={WHATSAPP} alt=""/>
-                <img  className="whatsapp" src={TWITTER} alt=""/>
-                </div>
-              </div>
-            </div>
-            <div className="copyright">
-            {signedInUser && <h2 className="signoutlink" onClick={handleSignOut}>Signout</h2>}
-                <h3>© 2024, Kido Inventory Ltd. All Rights Reserved</h3>
-            </div>
-          </footer>
-        </Col> */}
+       
     </Row>
     ) : (
                     <div className="no-products">
